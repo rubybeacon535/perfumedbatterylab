@@ -1,0 +1,12 @@
+{
+  "name": "port-allocator-fdab5c",
+  "version": "1.0.0",
+  "description": "A port allocator utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["port-allocator", "utility"],
+  "license": "MIT"
+}
